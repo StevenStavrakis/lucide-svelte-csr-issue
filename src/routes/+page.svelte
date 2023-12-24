@@ -18,6 +18,11 @@
 <p>Server Rendered Icon</p>
 <ChevronDown size="64" />
 {#if showIcon}
-  <p>Browser Rendered Icon</p>
-  <ChevronDown size="64" />
+  <div>
+    <p>Browser Rendered Icon</p>
+    <ChevronDown size="64" />
+  </div>
 {/if}
+
+<p>Clicking link navigates to svelte-4 example:</p>
+<a href="/svelte-4">Go to Svelte 4 example</a>
